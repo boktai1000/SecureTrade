@@ -1,0 +1,8 @@
+## Title: SecureTrade
+## Description: Creates a trade button that is grayed out for 3 seconds when the trade terms are changed.
+## Interface: 11305
+##
+## Version: 2
+
+
+SecureTrade.lua
