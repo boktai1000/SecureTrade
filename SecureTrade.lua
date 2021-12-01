@@ -18,7 +18,7 @@ f:RegisterEvent("TRADE_TARGET_ITEM_CHANGED")
 f:RegisterEvent("TRADE_MONEY_CHANGED")
 f:SetScript("OnEvent", function(self)
 	TradeFrameTradeButton:Disable()
-	self.enableAt = GetTime() + 3
+	self.enableAt = GetTime() + 2
 	OnUpdate(self)
 	self:SetScript("OnUpdate", OnUpdate)
 end)
